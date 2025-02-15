@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background: linear-gradient(#ff69b4, #ffe6f2);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    
+    background-color: #f0d3de;
+    padding: 2em;
+    text-align: center;
+}
+
+#home h1 {
+    font-family: Great Vibes;
+    font-size: 48px;
+    color: #9e165a;
+}
+
+#home p {
+    font-family: Arial;
+    font-size: 24px;
+    color: #333;
+}
+
+#love-btn {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: Pacifico;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#our-story {
+    
+    background-color: #f0d3de;
+    padding: 40pxpx;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#our-story h2 {
+    font-family: Great Vibes;
+    font-size: 36px;
+    color: #9e165a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#our-story p {
+    font-family: Arial;
+    font-size: 18px;
+    color: #ff0683;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#photos {
+    
+    background-color: #f0d3de;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(220, 55, 129, 0.1);
+}
+
+#photos h2 {
+    font-family: Great Vibes;
+    font-size: 36px;
+    color: #9e165a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#photo-gallery img {
+    width: 100px;
+    height: 200px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(220, 55, 129, 0.1);
+    transition:transform 0.2s ease-in-out
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid: gap 20px;
+}
+.photo-gallery img:hover{
+    transform: scale(1.1);
+}
